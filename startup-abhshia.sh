@@ -2,6 +2,10 @@
 
 #most of this is from https://gist.github.com/aaabramov/0f1d963d788bf411c0629a6bcf20114d
 
+cd ec2-zsh-setup/
+cp vimrc ~/.vimrc
+cp zshrc_ec2 ~/.zshrc
+
 sudo yum update -y 
 
 #sudo passwd ssm-user < this does not work, so change shell in /etc/passwd
