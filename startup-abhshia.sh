@@ -20,7 +20,7 @@ sudo yum install util-linux-user -y
 # Change default shell for current user, most of the times it would be "ec2-user"
 # Or use "sudo chsh -s $(which zsh) $(whoami)" to be sure
 # change in shell in /etc/passwd
-chsh -s "$(which zsh)"
+#chsh -s "$(which zsh)"
 
 # Install oh-my-zsh from https://github.com/ohmyzsh/ohmyzsh#basic-installation
 
