@@ -3,8 +3,7 @@
 #most of this is from https://gist.github.com/aaabramov/0f1d963d788bf411c0629a6bcf20114d
 
 cd ec2-zsh-setup/
-cp vimrc ~/.vimrc
-cp zshrc_ec2 ~/.zshrc
+
 
 sudo yum update -y 
 
@@ -30,6 +29,9 @@ sudo yum install util-linux-user -y
 
 sudo yum install git -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+cp vimrc ~/.vimrc
+cp zshrc_ec2 ~/.zshrc
 
 # OPTIONAL
 
